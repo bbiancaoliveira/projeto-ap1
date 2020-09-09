@@ -1,0 +1,178 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: Trebuchet MS, sans-serif;
+	color: #363636;
+	height: 100%;
+	width: 100%;
+}
+
+/*Pagina principal*/
+
+#menu ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+}
+
+#menu li {
+	float: left;
+	text-align: center;
+}
+
+#menu li a {
+	display: block;
+	color: #4F4F4F;
+	text-align: center;
+	padding: 20px;
+	margin: 0 6px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu li a:hover {
+	color: #00008B;
+}
+
+#menu #me {
+	font-size: 23px;
+	font-weight: bold;
+	color: #00008B;
+}
+
+#menu, #descricao {
+	position: absolute;
+}
+
+#menu {
+	left: 300px;
+	top: 3px;
+}
+
+#descricao {
+	left: 220px;
+	top: 260px;
+}
+
+#descricao h1 {
+	line-height: 0.1;	
+	font-size: 40px;
+}
+
+#descricao p {
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+#descricao a {
+	background: #003d68;
+	border: 1px solid #003d68;
+	border-radius: 20px;
+	padding: 8px 17px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#fundo img {
+	width: 100%;
+}
+
+/*Pagina abouteme*/
+
+#aboutme1, #aboutme2, #foto {
+	position: absolute;
+}
+
+#foto {
+	left: 500px;
+	top: 170px;
+}
+
+#aboutme1 {
+	top: 80px;
+	width: 320px;
+	left: 150px;
+}
+
+#aboutme1 p {
+	line-height: 1.7;
+	color: #808080;
+	font-weight: bold;
+}
+
+#aboutme2 {	
+	width: 320px;
+	top: 150px;
+	left: 850px;
+}
+
+#aboutme2 p {
+	line-height: 1.7;
+	color: #808080;
+	font-weight: bold;
+}
+
+#aboutme2 a {
+	background: #003d68;
+	border: 1px solid #003d68;
+	border-radius: 20px;
+	padding: 9px 23px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/*Formulario*/
+
+#tituloform {
+	width: 900px;
+	margin: 110px 100px 50px 200px;
+	text-align:center;
+	font-size: 13px;
+	color: #363636;
+}
+
+#formulario {
+	width: 800px;
+	margin: 10px auto;
+}
+
+input, textarea {
+	border: 0;
+	border-bottom: 2px solid #e9e9e9;
+	padding: 7px 20px;
+	margin: 10px;
+	margin-bottom: 30px;
+	width: 90%;
+	font-family:Trebuchet MS, sans-serif;
+	font-weight: bold;
+}
+
+textarea {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+#nomesobrenome input {
+	width: 41%;
+}
+
+input[type=submit] {
+	background: #003d68;
+	color: #FFFFFF;
+	margin: 0 auto;
+	margin-left: 270px;
+	padding: 10px;
+	width: 27%;
+	border: 1px solid #003d68;
+	border-radius: 20px;
+}
