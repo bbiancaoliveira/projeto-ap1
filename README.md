@@ -1,4 +1,4 @@
-# Projeto portifolio
+# Projeto portifólio
 
 ## Primeiros passos em HTML
 
